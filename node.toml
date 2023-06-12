@@ -1,0 +1,29 @@
+# File node0.toml
+
+[parity]
+chain = "genesis.json"
+base_path = "node"
+
+[network]
+port = 30301
+bootnodes = [
+"enode://ae85bbaf275caafe6f8e84e09f5e91b26ad84f0fc39632490c0eb0461053f614a53a8679886508f399194a0a7361ffc97556719f1e4d22edd50756d58fbcda68@192.168.209.131:30300",
+"enode://818cb39a19a30ee6d01e798bd986a07863128a55eec0c779a9b90293c66c781d934033c9f3fc15b085fdf2329c0049c5f3141ef2998b90ea7686e7b68290d8b5@192.168.209.131:30301",
+"enode://74b82942d9701795d12182bce93ceda48217a30a67dfda8592b21ec302a908dd4de29bd1c88eef5414f34feead029840043e9125a7cd0ba8836095c1211d7822@192.168.209.131:30303"
+]
+
+[rpc]
+disable = true
+
+[websockets]
+disable = true
+
+[account]
+#password = [""]
+
+[mining]
+#engine_signer = ""
+reseal_on_txs = "none"
+force_sealing = true
+min_gas_price = 20000000000
+
