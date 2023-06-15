@@ -1,4 +1,6 @@
 # Running DaNetwork TestNet Node
+
+## Runing sync Node
 To download the TestNet project from GitHub, open a command line and execute the following command:
 ```
 git clone https://github.com/DaNetworkTech/TestNet
@@ -15,7 +17,7 @@ After changing the permissions, run the test chain using the node.toml configura
 ```
 Note: Make sure you have installed the necessary dependencies and tools to build, run, and test the software successfully.
 
-#Running DaNetwork TestNet Miner
+## Running DaNetwork TestNet Miner
 
 1 Create an account for Node using the passwords: nodepwd1 .
 
